@@ -25,8 +25,8 @@ easy user manipulation.
 %description -l pl
 Serwer AAA (autentyfikacja, autoryzacja, accounting) dla urz±dzeñ
 sieciowych plus dodatkowe mo¿liwo¶ci. G³ównym celem jest pe³ne
-wsparcie dla baz danych, integracja z systemem bilingowym oraz
-³atwa modyfikacja u¿ytkowników.
+wsparcie dla baz danych, integracja z systemem bilingowym oraz ³atwa
+modyfikacja u¿ytkowników.
 
 %prep
 %setup -q -n %{name}

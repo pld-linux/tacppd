@@ -4,8 +4,6 @@ Name:		tacppd
 Version:	0.0.4
 Release:	1
 Group:		Networking/Daemons
-Group(de):	Netzwerkwesen/Server
-Group(pl):	Sieciowe/Serwery
 License:	GPL
 Source0:	http://provider.kht.ru/products/tacppd/ftp/unix/tacppd/releases/%{name}-%{version}-src.tgz
 Source1:	%{name}.pamd

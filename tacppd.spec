@@ -5,12 +5,12 @@ Version:	0.0.4
 Release:	1.1
 License:	BSD-like
 Group:		Networking/Daemons
-Source0:	http://provider.kht.ru/products/tacppd/ftp/unix/tacppd/releases/%{name}-%{version}-src.tgz
+Source0:	http://tacppd.org/public-ftp/releases/%{version}/%{name}-%{version}-src.tgz
 # Source0-md5:	ca35c0fc3caf9de13a9b55483212e0e3
 Source1:	%{name}.pamd
 Source2:	%{name}.initd
 Source3:	%{name}.logrotate
-URL:		http://provider.kht.ru/products/tacppd/
+URL:		http://tacppd.org/
 BuildRequires:	mysql-devel
 BuildRequires:	postgresql-devel
 BuildRequires:	ucd-snmp-devel >= 4.2.5

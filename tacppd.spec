@@ -2,7 +2,7 @@ Summary:	TACACS++ Daemon
 Summary(pl):	Serwer TACACS++
 Name:		tacppd
 Version:	0.0.4
-Release:	2
+Release:	0.1
 License:	GPL
 Group:		Networking/Daemons
 Source0:	http://provider.kht.ru/products/tacppd/ftp/unix/tacppd/releases/%{name}-%{version}-src.tgz

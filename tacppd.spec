@@ -15,6 +15,7 @@ BuildRequires:	mysql-devel
 BuildRequires:	postgresql-devel
 BuildRequires:	ucd-snmp-devel >= 4.2.5
 Prereq:		/sbin/chkconfig
+Requires:	pam >= 0.77.3
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description

@@ -10,9 +10,9 @@ Source1:	%{name}.pamd
 Source2:	%{name}.initd
 Source3:	%{name}.logrotate
 URL:		http://provider.kht.ru/products/tacppd/
-BuildRequires:	ucd-snmp-devel >= 4.2.5
 BuildRequires:	mysql-devel
 BuildRequires:	postgresql-devel
+BuildRequires:	ucd-snmp-devel >= 4.2.5
 Prereq:		/sbin/chkconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -47,11 +47,9 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-gzip -9nf BUGS CHANGES COPYING DEVELOPERS FAQ README Release* \
-	SNMP* TIP TODO
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc BUGS CHANGES COPYING DEVELOPERS FAQ README Release* SNMP* TIP TODO

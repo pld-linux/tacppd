@@ -3,7 +3,7 @@ Summary(pl):	Serwer TACACS++
 Name:		tacppd
 Version:	0.0.4
 Release:	1.1
-License:	GPL
+License:	BSD-like
 Group:		Networking/Daemons
 Source0:	http://provider.kht.ru/products/tacppd/ftp/unix/tacppd/releases/%{name}-%{version}-src.tgz
 # Source0-md5:	ca35c0fc3caf9de13a9b55483212e0e3
@@ -14,7 +14,8 @@ URL:		http://provider.kht.ru/products/tacppd/
 BuildRequires:	mysql-devel
 BuildRequires:	postgresql-devel
 BuildRequires:	ucd-snmp-devel >= 4.2.5
-Prereq:		/sbin/chkconfig
+PreReq:		rc-scripts
+#Requires(post,preun):	/sbin/chkconfig
 Requires:	pam >= 0.77.3
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 

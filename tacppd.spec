@@ -2,19 +2,19 @@ Summary:	TACACS++ Daemon
 Summary(pl):	Serwer TACACS++
 Name:		tacppd
 Version:	0.0.4
-Release:	1
-Group:		Networking/Daemons
+Release:	2
 License:	GPL
+Group:		Networking/Daemons
 Source0:	http://provider.kht.ru/products/tacppd/ftp/unix/tacppd/releases/%{name}-%{version}-src.tgz
 Source1:	%{name}.pamd
 Source2:	%{name}.initd
 Source3:	%{name}.logrotate
 URL:		http://provider.kht.ru/products/tacppd/
-BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-BuildRequires:	ucd-snmp-devel
+BuildRequires:	ucd-snmp-devel >= 4.2.5
 BuildRequires:	mysql-devel
 BuildRequires:	postgresql-devel
 Prereq:		/sbin/chkconfig
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This is our attempt to create AAA (authentication,authorization,

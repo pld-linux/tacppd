@@ -1,5 +1,5 @@
 Summary:	TACACS++ Daemon
-Summary(pl.UTF-8):   Serwer TACACS++
+Summary(pl.UTF-8):	Serwer TACACS++
 Name:		tacppd
 Version:	0.0.4
 Release:	1.1

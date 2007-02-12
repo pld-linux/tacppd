@@ -1,5 +1,5 @@
 Summary:	TACACS++ Daemon
-Summary(pl):	Serwer TACACS++
+Summary(pl.UTF-8):   Serwer TACACS++
 Name:		tacppd
 Version:	0.0.4
 Release:	1.1
@@ -26,11 +26,11 @@ accounting) server for network devices with additional features. The
 main goal - full database support + integration with billing system +
 easy user manipulation.
 
-%description -l pl
-Serwer AAA (autentyfikacja, autoryzacja, accounting) dla urz±dzeÒ
-sieciowych plus dodatkowe moøliwo∂ci. G≥Ûwnym celem jest pe≥ne
-wsparcie dla baz danych, integracja z systemem bilingowym oraz ≥atwa
-modyfikacja uøytkownikÛw.
+%description -l pl.UTF-8
+Serwer AAA (autentyfikacja, autoryzacja, accounting) dla urzƒÖdze≈Ñ
+sieciowych plus dodatkowe mo≈ºliwo≈õci. G≈Ç√≥wnym celem jest pe≈Çne
+wsparcie dla baz danych, integracja z systemem bilingowym oraz ≈Çatwa
+modyfikacja u≈ºytkownik√≥w.
 
 %prep
 %setup -q -n %{name}
